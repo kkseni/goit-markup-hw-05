@@ -263,7 +263,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1600px;
 }
 .slogan {
   text-transform: uppercase;
@@ -590,9 +589,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
-.contacts-footer-link-map:not(:last-child) {
-  margin-bottom: 9px;
-}
+
 .contacts-footer-link {
   text-decoration: none;
   font-weight: normal;
@@ -601,9 +598,11 @@ body {
   letter-spacing: 0.03em;
   color: var(--contacts-color);
 }
-.contacts-footer-link:not(:last-child) {
+
+.contacts-footer-li:not(:last-child) {
   margin-bottom: 9px;
 }
+
 .links {
   display: flex;
   list-style: none;
