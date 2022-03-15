@@ -257,7 +257,8 @@ body {
 
 .slogan-button {
   text-align: center;
-  padding: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background: linear-gradient(to right, var(--background), var(--background)),
     url('../images/header.jpg');
   background-repeat: no-repeat;
@@ -341,7 +342,7 @@ body {
 }
 .titlle-desk-list-item-text {
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--team-color);
 }
